@@ -81,3 +81,8 @@ class BirdByID(Resource):
         return make_response('', 204)
 
 api.add_resource(BirdByID, '/birds/<int:id>')
+
+
+
+
+# PGPASSWORD=XQUXja0I6IYgtEu6xEi1CniMHGOgVXDr psql -h dpg-cq9qqo5ds78s739hkk7g-a.oregon-postgres.render.com -U my_database_qf49_user my_database_qf49
